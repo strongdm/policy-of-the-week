@@ -1,3 +1,6 @@
+//
+// Require MFA for connecting to Prod SSH servers
+//
 @mfa("")
 permit (
     principal,
