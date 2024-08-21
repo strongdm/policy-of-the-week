@@ -1,4 +1,8 @@
 # Policy of the Week
-**StrongDM's Zero Trust Policy Engine Sample Policies**
+**StrongDM Zero Trust Sample Policies**
 
-[StrongDM](https://strongdm.com/)'s implementation of the [Cedar Policy Language](https://www.cedarpolicy.com/) provides a powerful and flexible way to define, manage, and enforce contextual and fine-grained access control policies across your organization. This repository aims to provide a set of examples that showcase the capabilities of fine-grained policies the StrongDM environment.
+[StrongDM](https://strongdm.com/)'s Zero Trust Policies allow administrators to to enforce fine-grained access control for users in their organization. Policies are enforced in real-time and can be used to further restrict access with granular precision and contextual attributes, as well as trigger additional authorization requirements such as MFA prompts, approval workflows, require a logged justification reason, fail with an error message, log out the user, send a notification pop-up.
+
+Zero Trust Policies are based on the open-source [Cedar](https://www.cedarpolicy.com/) authorization language, which evaluates authorization statements in real-time, in a language that is easy to read and write.
+
+For more information, consult the [StrongDM Policies documentation](https://www.strongdm.com/docs/admin/policies/).
