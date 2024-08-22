@@ -1,5 +1,5 @@
 //
-// Requie approval for UPDATE actions on PCI "cardholders" table
+// Require approval for UPDATE actions on PCI "cardholders" table
 //
 @approve("af-16bc081565d5d7b")
 permit (
