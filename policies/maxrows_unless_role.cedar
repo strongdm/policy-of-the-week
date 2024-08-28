@@ -7,9 +7,9 @@
 permit (
     principal,
     action == SQL::Action::"select",
-    resource in StrongDM::Resource::"rs-0d4dc56c66a868fb"
+    resource in StrongDM::Resource::"rs-2341234123412341"
 ) when {
     context.sql.tables.contains("fav_colors")
 } unless {
-    principal in StrongDM::Role::"r-06f9d98966be933b"
+    principal in StrongDM::Role::"r-2341234123412341"
 };

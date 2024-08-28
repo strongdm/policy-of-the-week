@@ -4,7 +4,7 @@
 forbid (
     principal,
     action,
-    resource in StrongDM::Resource::"rs-0d4dc56c66a868fb"
+    resource in StrongDM::Resource::"rs-2341234123412341"
 ) unless {
-    principal in StrongDM::Role::"r-4d9840c966a82a07"
+    principal in StrongDM::Role::"r-2341234123412341"
 };
