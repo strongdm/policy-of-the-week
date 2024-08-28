@@ -6,7 +6,7 @@
 forbid (
     principal,
     action == SQL::Action::"select",
-    resource in StrongDM::Resource::"rs-0d4dc56c66a868fb"
+    resource in StrongDM::Resource::"rs-2341234123412341"
 ) when {
     context.sql.tables.contains("pg_user")
 };
