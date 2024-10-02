@@ -1,5 +1,5 @@
 //
-// Request approval and redact "ssn" column in "cardholder" PCI table
+// Request approval and redact "ssn" column in "cardholders" PCI table
 //
 @approve("af-2341234123412341")
 @redact("ssn")
