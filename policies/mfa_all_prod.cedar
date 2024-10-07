@@ -7,6 +7,6 @@ permit (
     action = StrongDM::Action::"connect",
     resource
 ) when {
-    (resource.sdm.tags has "env" && resource.sdm.tags["env"] == "prod") &&
-    (resource.sdm.tags has "type" && resource.sdm.tags["type"] == "prod-ssh" )
+    principal in StrongDM::Role::"r-4f8678a666f2ed8f" && // All members of "Prod" Role
+    (resource.sdm.tags has "env" && resource.sdm.tags["env"] == "prod") // All resources in Prod
 };
