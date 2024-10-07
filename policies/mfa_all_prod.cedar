@@ -1,7 +1,7 @@
 //
 // Require an MFA prompt to connect to all Prod resources
 //
-mfa("")
+@mfa("")
 permit (
     principal,
     action == StrongDM::Action::"connect",
