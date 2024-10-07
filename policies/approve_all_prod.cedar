@@ -1,3 +1,6 @@
+//
+// Require approval to access any Production resources
+//
 @approve("af-66d8b4b165e24907")
 permit (
     principal,
