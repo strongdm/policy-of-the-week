@@ -4,7 +4,7 @@
 mfa("")
 permit (
     principal,
-    action = StrongDM::Action::"connect",
+    action == StrongDM::Action::"connect",
     resource
 ) when {
     principal in StrongDM::Role::"r-4f8678a666f2ed8f" && // All members of "Prod" Role
