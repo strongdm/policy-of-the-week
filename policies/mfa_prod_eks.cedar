@@ -1,3 +1,6 @@
+//
+// Permit connections to Production Kubernetes clusters
+//
 @mfa("")
 permit (
     principal,
