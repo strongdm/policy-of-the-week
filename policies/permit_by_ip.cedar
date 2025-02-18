@@ -1,10 +1,10 @@
 //
-// Permit connections by IP address
+// Restrict connections by IP address
 //
-permit (
+forbid (
     principal,
-    action,
+    action == StrongDM::Action::"connect",
     resource
-) when {
+) unless {
     context.location == Location::IP::"192.0.2.1"
 };
